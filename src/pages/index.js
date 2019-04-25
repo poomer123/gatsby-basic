@@ -10,7 +10,7 @@ class Home extends Component {
             <div>
                 <Header />
                 <h1>Home page</h1>
-                <p>Num : {this.state.num}</p>
+                <p className="p15">Num : {this.state.num}</p>
                 <button onClick={() => this.addNum()}>+</button>
 		        <button onClick={() => this.decreaseNum()}>-</button>
             </div>
