@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Header from '../components/header'
 import Box from '../components/Box'
-import style from '../../static/style.module.css'
+import style from '../styles/style.module.css'
 
 const About = () => {
     const [num, setNum] = useState(0)
