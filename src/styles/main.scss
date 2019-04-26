@@ -1,0 +1,24 @@
+@import "variables";
+
+@mixin borderRadius($radius: 5px) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.nav {
+    li {
+        display: inline-block;
+    }
+
+    a {
+        @include borderRadius(3px);
+
+        color: $textColor;
+        background: $mainColor;
+        display: block;
+        margin-right: 6px;
+        padding: 3px 9px;
+        text-decoration: none;
+    }
+}
